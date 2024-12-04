@@ -65,3 +65,37 @@ Replace the placeholders in the database configuration with your actual credenti
 - `your_database_username`: Your MySQL username. For example, `root`.
 - `your_database_password`: Your MySQL password. For example, `password123`.
 
+### 4. Build the Backend
+
+To build the backend, run the following command in the `springboot-backend` directory:
+
+```bash
+mvn clean install
+```
+### 5. Run the Backend Server
+
+To start the Spring Boot backend server, follow these steps:
+
+1. Open a terminal and navigate to the `springboot-backend` directory:
+   ```bash
+   cd springboot-backend
+```
+2.Run the following command to start the server:
+
+```bash
+mvn spring-boot:run
+```
+3.Once the server is running, it will be accessible at:
+```bash
+http://localhost:8080
+```
+### 6. Database Setup
+
+If the database does not already exist, follow these steps to create it:
+
+1. Open your MySQL terminal or a database client like MySQL Workbench.
+
+2. Run the following SQL command to create the database:
+   ```sql
+   CREATE DATABASE your_database_name;
+```
