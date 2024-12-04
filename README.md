@@ -31,3 +31,12 @@ Before running the application, ensure you have the following installed on your 
 ```bash
 http://localhost:3000
 ```
+## Backend (Spring Boot)
+
+### 1. Navigate to the Backend Directory
+
+To work with the backend, navigate to the backend directory:
+
+```bash
+cd springboot-backend
+
