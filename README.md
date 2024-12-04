@@ -39,4 +39,29 @@ To work with the backend, navigate to the backend directory:
 
 ```bash
 cd springboot-backend
+```
+### 2. Configure the Database Connection
+
+Before running the backend, you need to configure the database connection. Follow these steps:
+
+1. Open the configuration file:
+```bash
+src/main/resources/application.properties
+```
+
+2. Add the following database configuration:
+
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
+spring.datasource.username=your_database_username
+spring.datasource.password=your_database_password
+spring.jpa.hibernate.ddl-auto=update
+```
+### 3. Replace the Placeholders with Your Database Credentials
+
+Replace the placeholders in the database configuration with your actual credentials:
+
+- `your_database_name`: The name of your MySQL database. For example, `crud_database`.
+- `your_database_username`: Your MySQL username. For example, `root`.
+- `your_database_password`: Your MySQL password. For example, `password123`.
 
