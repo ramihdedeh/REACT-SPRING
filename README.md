@@ -81,7 +81,7 @@ To start the Spring Boot backend server, follow these steps:
    cd springboot-backend
 ```
 2.Run the following command to start the server:
-```bash
+
 mvn spring-boot:run
 ```
 3.Once the server is running, it will be accessible at:
