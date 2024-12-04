@@ -81,7 +81,6 @@ To start the Spring Boot backend server, follow these steps:
    cd springboot-backend
 ```
 2.Run the following command to start the server:
-
 ```bash
 mvn spring-boot:run
 ```
@@ -98,4 +97,4 @@ If the database does not already exist, follow these steps to create it:
 2. Run the following SQL command to create the database:
    ```sql
    CREATE DATABASE your_database_name;
-```
+
